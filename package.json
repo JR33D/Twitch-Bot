@@ -1,0 +1,17 @@
+{
+  "name": "Twitch-Bot",
+  "description": "Twitch Chat Bot",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Jeremy Reed ",
+      "email": "JReed129@gmail.com",
+      "web": "jr33d.github.io"
+    }
+  ],
+  "dependencies": {
+    "tmi.js": "latest"
+  },
+  "repositories": [
+  ]
+}
