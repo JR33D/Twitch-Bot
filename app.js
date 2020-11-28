@@ -1,5 +1,6 @@
 var tmi = require("tmi.js"),
-    http = require('http');
+    http = require('http'),
+    dotenv = require('dotenv').config();
 
 var commands = new Map();
 commands.set('!hello', 'Hello World!');
@@ -13,8 +14,8 @@ var options = {
         reconnect: true
     },
     identity: {
-        username: "RoyalCourt_Bot",
-        password: "oauth:djgy5xnmi10cdpvvylop9obiciaxqa"
+        username: process.env.username,
+        password: process.env.token
     },
     channels: ["KingBon3ss"]
 }
